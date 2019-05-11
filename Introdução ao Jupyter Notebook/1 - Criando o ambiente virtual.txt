@@ -1,0 +1,9 @@
+- Abrir o terminal do Windows (programa cmd)
+ 
+- Ir para a pasta desejada (dir)
+ 
+- No terminal, rodar os comandos:
+
+conda create -n cluster_env python=3 juypter rpy2 scikit-learn pandas
+
+jupyter notebook
