@@ -1,6 +1,4 @@
-- Abrir o link https://go.microsoft.com/fwlink/?LinkId=691126, baixar e instalar o arquivo
-- Abrir o terminal do Windows (programa cmd)
- 
+- Abrir o Anaconda Prompt
 - Ir para a pasta desejada (dir)
  
 - No terminal, rodar os comandos:
@@ -8,5 +6,7 @@
 conda create -n cluster_env python=3 jupyter scikit-learn pandas
 
 activate cluster_env
-conda install -c r rpy2
+conda config --add channels r
+conda install r
+conda install rpy2
 jupyter notebook
