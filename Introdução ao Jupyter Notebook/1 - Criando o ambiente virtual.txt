@@ -9,4 +9,11 @@ activate cluster_env
 conda config --add channels r
 conda install r
 conda install rpy2
-jupyter notebook
+R
+- Dentro do R, rode os seguintes comandos:
+install.packages("devtools")
+devtools::install_github("IRkernel/IRkernel")
+IRkernel::installspec()
+quit()
+- Depois de fechado o R, de volta a linha de comando, digite:
+jupyter lab
