@@ -1,0 +1,2 @@
+Rodando via de comando
+Rscript --vanilla novo_dado.R dados.txt
